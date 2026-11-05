@@ -44,8 +44,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.08; tex
 
 .raster { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--spalte); padding-inline: var(--rand); }
 
-.entwurf { margin: 0; padding: var(--abstand-2) var(--rand); background: var(--farbe-basis-tusche); color: var(--farbe-rolle-on-invert); font-size: var(--t-klein); line-height: 1.4; }
-
 /* Kopf */
 .kopf { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: var(--abstand-4); min-height: var(--kopf); padding-inline: var(--rand); background: var(--farbe-rolle-surface); border-bottom: 1px solid var(--farbe-rolle-line); }
 .kopf-marke { display: block; flex: none; padding-block: var(--abstand-2); }
