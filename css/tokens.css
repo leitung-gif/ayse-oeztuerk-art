@@ -1,0 +1,40 @@
+/* erzeugt von tokens_pruefen.py aus tokens/marke.tokens.json, nicht von Hand ändern */
+:root {
+  --farbe-basis-papier: #f7f2e9;
+  --farbe-basis-leinen: #e8e0cf;
+  --farbe-basis-tusche: #1f1b18;
+  --farbe-basis-stein: #5c544b;
+  --farbe-basis-ultramarin: #1a248a;
+  --farbe-basis-kadmium: #c12b18;
+  --farbe-basis-ocker: #e8a620;
+  --farbe-rolle-surface: var(--farbe-basis-papier);
+  --farbe-rolle-on-surface: var(--farbe-basis-tusche);
+  --farbe-rolle-muted: var(--farbe-basis-stein);
+  --farbe-rolle-line: var(--farbe-basis-leinen);
+  --farbe-rolle-surface-invert: var(--farbe-basis-ultramarin);
+  --farbe-rolle-on-invert: var(--farbe-basis-papier);
+  --farbe-rolle-accent: var(--farbe-basis-kadmium);
+  --farbe-rolle-on-accent: var(--farbe-basis-papier);
+  --farbe-rolle-highlight: var(--farbe-basis-ocker);
+  --farbe-rolle-focus: var(--farbe-basis-ultramarin);
+  --farbe-rolle-focus-invert: var(--farbe-basis-ocker);
+  --abstand-1: 4px;
+  --abstand-2: 8px;
+  --abstand-3: 12px;
+  --abstand-4: 16px;
+  --abstand-6: 24px;
+  --abstand-8: 32px;
+  --abstand-12: 48px;
+  --abstand-16: 64px;
+  --abstand-24: 96px;
+  --abstand-32: 128px;
+  --abstand-40: 160px;
+  --radius-null: 0px;
+  --radius-klein: 2px;
+  --schatten-bild: 0px 12px 28px -12px color(srgb 0.122 0.106 0.094 / 0.22);
+  --bewegung-dauer-kurz: 150ms;
+  --bewegung-dauer-mittel: 240ms;
+  --bewegung-dauer-auftritt: 400ms;
+  --bewegung-kurve-standard: cubic-bezier(0.2, 0, 0.38, 0.9);
+  --bewegung-kurve-ein: cubic-bezier(0, 0, 0.38, 0.9);
+}
